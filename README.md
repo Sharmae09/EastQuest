@@ -1,29 +1,75 @@
-# 📖EastQuest
+# Nuxt Minimal Starter
 
-EastQuest is a productivity mobile app designed to help students track their study time effectively. Users can set study goals, monitor their progress, and join study groups (guilds) to stay motivated. The app offers both free and premium versions.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-🚀 Features
+## Setup
 
-⏳ Study Time Tracking - Measure and log study sessions in real-time.
+Make sure to install dependencies:
 
-🎯 Goal Setting - Define study goals and track progress.
+```bash
+# npm
+npm install
 
-👥 Study Groups & Guilds - Join or create study groups and compete in challenges.
+# pnpm
+pnpm install
 
-📊 Analytics & Reports - Get insights into your study patterns.
+# yarn
+yarn install
 
-🔒 User Accounts - Secure login system for personal study tracking.
+# bun
+bun install
+```
 
-💎 Free & Premium Versions - Access core features for free or upgrade for advanced tools.
+## Development Server
 
-📱 Tech Stack
+Start the development server on `http://localhost:3000`:
 
-Frontend: Flutter / React Native
+```bash
+# npm
+npm run dev
 
-Backend: Node.js / Firebase / Supabase
+# pnpm
+pnpm dev
 
-Database: Firestore / PostgreSQL
+# yarn
+yarn dev
 
-Authentication: Firebase Auth / OAuth
+# bun
+bun run dev
+```
 
-Deployment: Google Play Store & Apple App Store
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

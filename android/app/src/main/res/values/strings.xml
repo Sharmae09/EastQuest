@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">eastquest</string>
+    <string name="title_activity_main">eastquest</string>
+    <string name="package_name">com.eastquest.app</string>
+    <string name="custom_url_scheme">com.eastquest.app</string>
+</resources>
