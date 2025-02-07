@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+  <IonPage>
+    <Navbar />
+    <IonContent>
+      <NuxtPage />
+    </IonContent>
+  </IonPage>
 </template>
 
-<script></script>
+<script setup>
+import { IonPage, IonContent } from "@ionic/vue";
+import Navbar from "@/components/Navbar.vue";
+</script>

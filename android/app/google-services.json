@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792971827480",
+    "project_id": "eastquest-906a3",
+    "storage_bucket": "eastquest-906a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792971827480:android:268422ebf7d4696d17e66d",
+        "android_client_info": {
+          "package_name": "com.eastquest.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWGb_arTxyqxb3Q7qcqL9q60KpOxwHk-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
