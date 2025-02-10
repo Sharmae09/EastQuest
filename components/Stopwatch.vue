@@ -64,7 +64,7 @@ onMounted(async () => {
 
 <script setup>
 import { ref, onMounted } from "vue";
-import { databaseService } from "@/services/sqlite"; // SQLite service
+import { databaseService } from "~/services/sqlite.md"; // SQLite service
 import { syncSessionsToFirestore } from "@/services/firestoreSync"; // Firebase sync service
 
 const displayTime = ref("00:00");

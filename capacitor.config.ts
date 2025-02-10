@@ -7,6 +7,13 @@ const config: CapacitorConfig = {
   server: {
     androidScheme: "https",
   },
+  // bundledWebRuntime: false,
+  plugins: {
+    CapacitorSQLite: {
+      // iosDatabaseLocation: "Library/CapacitorDatabase",
+      webAssemblyPath: "assets/sqlite-wasm",
+    },
+  },
 };
 
 export default config;

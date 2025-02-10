@@ -13,5 +13,6 @@ export default defineNuxtConfig({
   css: [
     "@/assets/styles/main.scss", // Add the global SCSS file
   ],
-  plugins: ["~/plugins/sqlite.ts"],
+  // plugins: ["~/plugins/jeep-sqlite.ts"],
+  // plugins: [{ src: "~/plugins/jeep-sqlite", mode: "client" }],
 });
